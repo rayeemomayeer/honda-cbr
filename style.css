@@ -8,6 +8,24 @@ body {
 header {
   background-color: #264653e7;
 }
+h1 {
+  font-size: 3.5em;
+  font-family: 'Ubuntu', sans-serif;
+}
+h2 {
+  font-size: 2.7em;
+  font-family: 'Ubuntu', sans-serif;
+}
 p{
-  color: #E0E0E0;
+  color: #8d8d8d;
+}
+button {
+  background-color: #E76F51;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.gray-img{
+  filter: grayscale(80%)
 }
