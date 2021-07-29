@@ -30,6 +30,20 @@ button {
   filter: grayscale(80%)
 }
 
+.about{
+  background-image: url(images/about1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+@media only screen and (max-width:786px){
+  .about{
+    background-image: none;
+    background-color: #50134d;
+    height: auto;
+  }
+}
+
 .subs {
   background-color: #f0ebffc7;
   padding: 100px;
